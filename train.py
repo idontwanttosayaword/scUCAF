@@ -16,7 +16,7 @@ import argparse
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Training script')
-    parser.add_argument('-c', '--config', type=str, default='configs\GSE10086.yaml',
+    parser.add_argument('-c', '--config', type=str, default='configs\config.yaml',
                         help='Path to the config file')
     parser.add_argument('-r', '--run_dir', type=str, default=None,
                         help='Directory name under runs/ (default: None)')
