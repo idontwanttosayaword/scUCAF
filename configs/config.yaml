@@ -1,0 +1,31 @@
+batch_size: 256
+decoder1_layers:
+- 16
+- 64
+- 256
+decoder2_layers:
+- 16
+- 64
+- 256
+encoder1_layers:
+- 256
+- 64
+- 16
+encoder2_layers:
+- 256
+- 64
+- 16
+epochs: 500
+f1: 2000
+f2: -1
+h5ad_file1: 
+h5ad_file2: 
+latent_dim: 16
+lr: 0.001
+n_clusters: null
+pre_train: true
+pre_train_epochs: 500
+seed: 42
+tao: 0.3
+weight_path: ''
+beta: 0.00001
